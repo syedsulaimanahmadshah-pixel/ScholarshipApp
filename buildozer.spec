@@ -16,7 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,db
 
 # (string) Application version
-android.gradle_dependencies =
+version = 1.0
 # (list) Application requirements
 # Yahan humne kivymd aur sqlite3 specify kiya hai taake ye android me include hon
 requirements = python3==3.11,kivy==2.3.0,kivymd==1.2.0,plyer,setuptools
