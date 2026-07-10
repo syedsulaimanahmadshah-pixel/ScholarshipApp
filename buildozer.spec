@@ -7,7 +7,7 @@ title = Master's Scholarship
 package.name = mastersscholarship
 
 # (string) Package domain (needed for android packaging)
-package.domain = org.test
+package.domain = org.sulaiman
 
 # (string) Source code where the main.py lives
 source.dir = .
