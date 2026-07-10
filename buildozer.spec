@@ -20,7 +20,7 @@ version = 0.1
 
 # (list) Application requirements
 # Yahan humne kivymd aur sqlite3 specify kiya hai taake ye android me include hon
-requirements = python3,kivy==2.3.0,kivymd==1.2.0,
+requirements = python3==3.11,kivy==2.3.0,kivymd==1.2.0,plyer
 
 # (str) Supported orientations (landscape, portrait or all)
 orientation = portrait
@@ -42,7 +42,7 @@ android.minapi = 21
 android.sdk = 33
 
 # (str) Android NDK version to use
-android.ndk = 25b
+android.ndk = 27b
 
 # (bool) Use Gradle instead of Ant
 android.gradle_dependencies = 
