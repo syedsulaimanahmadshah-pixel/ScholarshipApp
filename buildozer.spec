@@ -20,8 +20,7 @@ version = 0.1
 
 # (list) Application requirements
 # Yahan humne kivymd aur sqlite3 specify kiya hai taake ye android me include hon
-requirements = python3==3.11,kivy==2.3.0,kivymd==1.2.0,plyer
-
+requirements = python3==3.11,kivy==2.3.0,kivymd==1.2.0,plyer,setuptools
 # (str) Supported orientations (landscape, portrait or all)
 orientation = portrait
 
