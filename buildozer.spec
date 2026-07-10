@@ -16,8 +16,7 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,atlas,db
 
 # (string) Application version
-version = 0.1
-
+android.gradle_dependencies =
 # (list) Application requirements
 # Yahan humne kivymd aur sqlite3 specify kiya hai taake ye android me include hon
 requirements = python3==3.11,kivy==2.3.0,kivymd==1.2.0,plyer,setuptools
@@ -38,7 +37,7 @@ android.api = 33
 android.minapi = 21
 
 # (int) Android SDK version to use
-android.sdk = 33
+# android.sdk = 33
 
 # (str) Android NDK version to use
 android.ndk = 27b
